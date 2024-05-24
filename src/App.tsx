@@ -47,6 +47,7 @@ import UserPage from './pages/Userpage';
 
 import { home, person, checkbox, calendar } from 'ionicons/icons';
 import Calendar from './pages/Calender';
+import Jorney from './pages/Jorney';
 
 
 setupIonicReact();
@@ -70,6 +71,9 @@ const App: React.FC = () => (
 
           <Route component={Calendar} path="/Calendar" exact={true}/>
           <Route exact path="/" render={() => <Redirect to="/index" />} />    
+
+          <Route component={Jorney} path="/Jorney" exact={true}/>
+          <Route exact path="/" render={() => <Redirect to="/jorney" />} />  
         </IonRouterOutlet>
 
         <IonTabBar slot="bottom">
