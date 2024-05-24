@@ -73,7 +73,7 @@ const App: React.FC = () => (
           <Route exact path="/" render={() => <Redirect to="/index" />} />    
 
           <Route component={Jorney} path="/Jorney" exact={true}/>
-          <Route exact path="/" render={() => <Redirect to="/jorney" />} />  
+          <Route exact path="/" render={() => <Redirect to="/index" />} />  
         </IonRouterOutlet>
 
         <IonTabBar slot="bottom">
