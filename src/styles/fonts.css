@@ -1,0 +1,32 @@
+.inter-black-strong-32{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    color: var(--ion-color-dark-contrast);
+}
+
+.inter-black-thin-12{
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    color: var(--ion-color-dark-contrast);
+}
+
+.inter-grey-14{
+    font-family: "Inter", sans-serif;
+    font-size: 14.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--ion-color-grey-light);
+}
+
+.loginInput{
+    width: 326px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0.5px solid #E7E7E7;
+    background: #FFF;
+}

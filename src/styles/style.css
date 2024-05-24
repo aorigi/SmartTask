@@ -1,0 +1,10 @@
+/* FONTS IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* CSS IMPORTS */
+@import url(login.css);
+@import url(fonts.css);
+@import url(userpage.css);
+@import url(index.css);
+@import url(jorney.css);
+@import url(../theme/variables.css);

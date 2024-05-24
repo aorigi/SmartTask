@@ -1,0 +1,77 @@
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+    border: 4px solid white;
+  }
+  
+  .circle { 
+    margin-left: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .corpo{
+    margin-left: 10px;
+    color: black;
+  }  
+  
+  .cabeca{
+    text-align: center;
+    background-color: #ff7c50;
+    color: white;
+  }
+  
+  .principal{
+    display: flex;
+    text-align: center;
+    background-color: #ff7c50;
+    color: white;
+    padding: 10px;
+  }
+  
+  .notificacao{
+    margin-left: 130px;
+    margin-top: 20px;
+  }
+  
+  .cartao{
+    display: flex;
+    margin: 20px ;
+    
+  }
+  
+  .card{  
+    border-radius: 10%;
+    margin: auto;
+    width: 150px;
+    box-shadow: 1px 3px 5px grey;
+    color: black;
+  }
+  
+  .example-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .material-symbols-outlined {
+    background-color: #ff4848;
+    color: white;
+    align-content: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 10px;
+      
+  }
+
+  .tarefas {
+    color: black;
+    display: flex;
+    box-shadow: 1px 3px 5px grey;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    
+  }

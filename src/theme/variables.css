@@ -1,0 +1,9 @@
+.md body {
+  --ion-background-color: #ffffff; 
+  --ion-text-color: black;
+  --ion-text-color-step-150: black;      
+}
+
+.tabs {
+  color: #ff7c50;
+}
